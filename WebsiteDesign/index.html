@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="menu">
+         <ul>
+             <li><a href="">Home</a></li>
+             <li><a href="">About Us</a></li>
+             <li><a href="">Contact</a></li>
+         </ul>   
+        </nav>
+        <div id="logo">
+         <a href="">TECHNOSOFT LTD.</a>
+        </div>
+        <nav id="social-links">
+            <ul>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVsd7grOWa0V0w4aUnGvfrwCc6UtV46iic_cIA1hmURm4BzHnWpA&s" width="40px" height="40px"></li>
+                <li><img src="data:image/png;base64,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" height="40px" width="40px"></li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy2k04A5s1tSRi6cYP4wcM4DdyVpoLlYkEYo7gbAJ5J30XWDqO&s" width="40px" height="40px"></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+      <aside class="">
+          <ul>
+              <li><a href="">Some Links</a></li>
+              <li><a href="">Some Links</a></li>
+              <li><a href="">Some Links</a></li>
+              <li><a href="">Some Links</a></li>
+              <li><a href="">Some Links</a></li>
+          </ul>
+          <img src="images/aside" alt="">
+      </aside>  
+      <article class="">
+          <h2>Welcome to our Website</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non minima ipsam quas dolores, error corporis repellat nesciunt nostrum quis, amet beatae velit ratione. Nisi vero distinctio, deserunt reprehenderit placeat, ipsum iure, possimus labore voluptatibus nihil nulla tenetur quod officia rerum veniam facilis fugit. Quae, debitis. Dolore itaque provident ipsum? Recusandae consectetur ipsa quibusdam tempora magnam obcaecati facere non totam dicta debitis dolorum temporibus laboriosam maiores rem velit suscipit repellendus ea, eos doloremque, error molestias corrupti culpa nisi! Commodi quibusdam architecto magni doloremque aliquam, porro assumenda quae officiis, velit provident quidem consequuntur nemo esse? Iure quidem dignissimos nesciunt asperiores pariatur aspernatur!</p>
+          <h2>Our Services</h2>
+          <div class="services-container">
+              <div class="service-box">
+                <div class="service-img">
+                    <img src="images/Web-Designing" alt="">
+                </div>
+                <div class="service-title">
+                    <h3>Web Designing</h3>
+                </div>
+                <div class="serv-desc">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem rerum eum placeat consectetur cupiditate cumque perspiciatis dicta, eveniet culpa porro rem ut quos quaerat tempora facilis unde. Enim dolore qui asperiores, et temporibus sint molestiae laborum amet ipsam unde obcaecati consequatur beatae dolores repel!</p>
+                </div>
+                <div class="call-to-action">
+                   <a href="">Read more</a> 
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="images/web-development.jpg" alt="">
+                </div>
+                <div class="service-title">
+                    <h3>Web Development</h3>
+                </div>
+                <div class="serv-desc">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem rerum eum placeat consectetur cupiditate cumque perspiciatis dicta, eveniet culpa porro rem ut quos quaerat tempora facilis unde. Enim dolore qui asperiores, et temporibus sint molestiae laborum amet ipsam unde obcaecati consequatur beatae dolores repe!</p>
+                </div>
+                <div class="call-to-action">
+                   <a href="">Read more</a> 
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="images/Mobile-App-Development-In-USA.jpg" alt="">
+                </div>
+                <div class="service-title">
+                    <h3>Mobile App Development</h3>
+                </div>
+                <div class="serv-desc">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem rerum eum placeat consectetur cupiditate cumque perspiciatis dicta, eveniet culpa porro rem ut quos quaerat tempora facilis unde. Enim dolore qui asperiores, et temporibus sint molestiae laborum amet ipsam unde obcaecati consequatur beatae dolores repe!</p>
+                </div>
+                <div class="call-to-action">
+                   <a href="">Read more</a> 
+                </div>
+            </div>
+          </div>
+      </article>
+    </div>
+    <footer>
+        Made By @Ravi Verma
+    </footer>
+
+</body>
+</html>
